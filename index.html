@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Temperature</title>
+<link href="css/style.css" rel="stylesheet">
+ <script src="js/script1.js"></script>
+<style>
+body{
+background-image:url("images/img24.jpg");
+background-size:cover;
+margin:auto;
+}
+</style>
+</head>
+<body>
+<h1>Temperature Convertor</h1>
+<section id="con">
+<strong>Enter temperature:</strong><input type="number" id="temp"/><br>
+<strong>Choose Unit:<strong><select id="unit">
+                                 <option value="celsius">Celsius</option>
+                                 <option value="fah">Fahrenheit</option>
+                                 <option value="kelvin">Kelvin</option>
+                         </select><br>
+<button onclick="Convert()"><strong>Convert</strong></button><br>
+<strong>Convert Temperature:</strong><span id="display"></span>
+</section>
+</body>
+</html>
